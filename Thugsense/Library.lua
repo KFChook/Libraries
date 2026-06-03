@@ -215,9 +215,9 @@ local Library do
         },
 
         Folders = {
-            Directory = "KFCHook",
-            Configs = "KFCHook/Configs",
-            Assets = "KFCHook/Assets"
+            Directory = "scriptname",
+            Configs = "scriptname/Configs",
+            Assets = "scriptname/Assets"
         },
 
         Images = { -- you're welcome to reupload the images and replace it with your own links
