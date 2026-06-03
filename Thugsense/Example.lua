@@ -1,12 +1,12 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/KFChook/Libraries/refs/heads/main/Thugsense/library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/KFChook/Libraries/refs/heads/main/Thugsense/Library.lua"))()
 
 local Window = Library:Window({
-    Name = "you can change the name here",
+    Name = "KFC.Hook",
     --Size = UDim2.new(0, 600, 0, 400),
     FadeSpeed = 0.25
 })
 
-local Watermark = Library:Watermark("thugsense ~ ".. os.date("%b %d %Y") .. " ~ ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+local Watermark = Library:Watermark("KFCHook ~ ".. os.date("%b %d %Y") .. " ~ ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
 local KeybindList = Library:KeybindList()
 
 Watermark:SetVisibility(false)
