@@ -199,7 +199,7 @@ local Library do
             ["Page Background"] = FromRGB(30, 30, 35),
             ["Border"] = FromRGB(10, 10, 10),
             ["Outline"] = FromRGB(27, 27, 32),
-            ["Accent"] = FromRGB(235, 157, 255),
+            ["Accent"] = FromRGB(45, 45, 45),
             ["Element"] = FromRGB(33, 33, 36),
             ["Hovered Element"] = FromRGB(40, 40, 43),
             ["Text"] = FromRGB(215, 215, 215),
@@ -215,9 +215,9 @@ local Library do
         },
 
         Folders = {
-            Directory = "scriptname",
-            Configs = "scriptname/Configs",
-            Assets = "scriptname/Assets"
+            Directory = "KfcHook",
+            Configs = "KfcHook/Configs",
+            Assets = "KfcHook/Assets"
         },
 
         Images = { -- you're welcome to reupload the images and replace it with your own links
