@@ -632,8 +632,8 @@ local Library do
             end
         end
 
-        CustomFont:New("Windows-XP-Tahoma", 200, "Regular", {
-            Url = "https://github.com/sametexe001/luas/raw/refs/heads/main/fonts/windows-xp-tahoma.ttf"
+        CustomFont:New("verdana", 200, "Regular", {
+            Url = "https://github.com/sametexe001/luas/raw/refs/heads/main/fonts/verdana.ttf"
         })
 
         Library.Font = CustomFont:Get("Windows-XP-Tahoma")
