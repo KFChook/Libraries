@@ -1287,8 +1287,8 @@ local function get_config_name_from_path(file)
 			local dock_outline;
 			local blur = library:create( "BlurEffect" , {
 				Parent = lighting;
-				Enabled = true;
-				Size = 15
+				Enabled = false;
+				Size = 0
 			});    
 
 			library.cache = library:create("ScreenGui", {
