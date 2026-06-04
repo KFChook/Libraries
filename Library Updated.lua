@@ -1,5 +1,3 @@
--- REASON: Dumbass customer put their library in a request and flexed his non existant security and ended up getting it leaked by himself... 😭
--- The code here is horrendous this is my 2nd library, the added on code was made to suit the old code however I should have just converted to a newer version of my code kind of an oopsie. 
 
 -- variables
 	local uis = cloneref(game:GetService("UserInputService"))
@@ -69,7 +67,7 @@
 
 -- library init
 	local library = {
-		directory = "Beyond.hook PL",
+		directory = "Kfc.Hook",
 		folders = {
 			"/fonts",
 			"/configs",
@@ -110,12 +108,12 @@
 		preset = {
 			["outline"] = hex("#0A0A0A"), -- 
 			["inline"] = hex("#2D2D2D"), --
-			["accent"] = hex("#b4b4ff"), --
+			["accent"] = hex("#ffffff"), --
 			["high_contrast"] = hex("#141414"),
 			["low_contrast"] = hex("#1E1E1E"),
 			["text"] = hex("#B4B4B4"),
 			["text_outline"] = rgb(0, 0, 0),
-			["glow"] = hex("#b4b4ff"), 
+			["glow"] = hex("#ffffff"), 
 		},
 
 		utility = {
@@ -1692,7 +1690,7 @@ local function get_config_name_from_path(file)
 				})
 
 local watermark = library:watermark({
-    default = "Beyond.hook | Prison life V1 | Loading..."
+    default = "Kfc.Hook |Tha Bronx 3 | Loading..."
 })  
 
 task.spawn(function()
@@ -1708,7 +1706,7 @@ task.spawn(function()
         local userId = player.UserId
         
         -- Update watermark text
-        watermark.change_text("Beyond.hook | Private | Beta | Prison life V1 | FPS: " .. fps .. " | Ping: " .. ping .. "ms | " .. username .. " (" .. userId .. ")")
+        watermark.change_text("Kfc.Hook | Free | Beta | FPS: " .. fps .. " | Ping: " .. ping .. "ms | " .. username .. " (" .. userId .. ")")
     end 
 end)
 
